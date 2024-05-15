@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 1;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.cabeçalho-dois{
+    background-color: #424E61;
+    color: white;
+    display: flex;   
+    padding: 24px 0;
+
+}
+.cabeçalho-voltar-inicial{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+       
+}
+.cabeçalho-dois-imagem{
+    width: 10%;
+    height: 60px;
+   
+}
