@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 1;
+    
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,6 +25,33 @@ body {
 }
 .cabeçalho-dois-imagem{
     width: 10%;
-    height: 60px;
+    height: 70px;
    
+}
+
+.sobre-escola{
+    background-image: linear-gradient(#424E61,#35517e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-escola-div-conteudo{
+    width: 70%;
+ 
+}
+
+.sobre-escola-titulo{
+    padding: 24px 0;
+}
+
+.sobre-escola-texto-um{
+    padding: 24px 0;
+    font-size: small;
+}
+
+.sobre-escola-texto-dois{
+    padding: 24px 0;
 }
