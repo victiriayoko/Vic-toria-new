@@ -10,11 +10,13 @@ body {
 .cabeçalho-dois{
     background-color: #424E61;
     color: white;
-    display: flex;   
+    display: flex;  
     padding: 24px 0;
-
+    justify-content: center;
+    align-items: center;
+    
 }
-.cabeçalho-voltar-inicial{
+.voltar{
     align-items: flex-start;
     justify-content: left;
     color: beige;
@@ -23,19 +25,42 @@ body {
     cursor: pointer;
        
 }
-header{
-    width: 100%;
-    padding: 60px 4%;   
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    transition: .1s;
-}
-header.rolagemm{
 
-    background-image: linear-gradient(#424E61,#35517e);
-    padding: 10px 0;
+.arr{
+    position:relative;
+    background: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin:20px;
+    transition: 0.4s ease;
+   
+    cursor: pointer;
+       
 }
+.arr:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.151);
+}
+
+
+.arr div{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-top: 5px  solid #202020;
+    border-left: 5px solid #202020;
+    transform: rotate(35deg);
+    right: 10s;
+    top:20px;
+
+}
+
+.right{
+    transform: rotate(-90deg);
+  
+}
+
+
 .cabeçalho-dois-imagem{
     
     width: 10%;
